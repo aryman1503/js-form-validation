@@ -1,0 +1,233 @@
+/* Common CSS file*/
+
+/* CSS start */
+
+
+/* Whole document section */
+.logo_img {
+    height: 10%;
+    width: 10%;
+}
+
+/* Index file css start */
+/* Home background image */
+.home_img {
+    height: 450px;
+    width: 100%;
+}
+
+body {
+    background-color: lightblue;
+}
+
+ul li {
+    font-size: 20px;
+    overflow: hidden;
+    display: block;
+    float: left;
+    text-transform: uppercase;
+    padding: 24px;
+}
+
+ul li a {
+    display: block;
+    text-align: center;
+    padding: 10px 10px 10px 14px;
+    text-decoration: none;
+}
+ul li a:hover {
+    background-color: #26d1f5;
+    text-decoration: overline;
+}
+
+.right {
+    float: right;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+div p {
+    padding: 12px;
+}
+
+/* Index file css end */
+
+/* Login css start */
+.login_bg {
+    background-image: url("images/logo.png");
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+  }
+
+  div.transbox {
+  /*  margin: 300px; */
+    position: relative;
+    margin-left: 30%;
+    margin-top: 10%;
+    margin-right: 30%;
+    padding-left: 5%;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+  }
+  
+  div.transbox p {
+    margin: 15%;
+    font-weight: bold;
+    color: #000000;
+  }
+
+
+  input[type=text], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
+  .login_btn {
+    background-color: blue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+  }
+
+  .login_form b {
+      font-size: 30px;
+  }
+
+  .login_signin {
+    background-color: skyblue;
+    text-align: center;
+    
+  }
+
+  /* Login css end */
+
+  /* Common span css for all */
+  span {
+      color: blue;
+      font-weight: bold;
+  }
+
+  /* Contact form css start */
+  .contact_form {
+    border-radius: 5px;
+    background-color: #6ec6f4 ;
+    padding: 50px;
+    margin: 0% 10% 10% 10%;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+    
+  .contact_input[type=text], .contact_textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+
+  .contact_submit_btn[type=submit] {
+    background-color: rgb(15, 125, 228);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+  } 
+
+  .contact_submit_btn[type=submit]:hover {
+    background-color: #0a0ef1;
+  }
+
+  /* Contact form css end */
+
+
+  /* Signup form css start */
+  div.signup_transbox {
+      position: relative;
+      margin-left: 25%;
+      margin-top: 5%;
+      margin-right: 25%;
+      padding-left: 5%;
+      background-color: #ffffff;
+      border: 1px solid black;
+      opacity: 0.6;
+      filter: alpha(opacity=60);
+    }
+    
+    div.signup_transbox p {
+      margin: 5%;
+      font-weight: bold;
+      color: #000000;
+    }
+  
+  
+    .signup_input[type=text], .signup_input[type=password], textarea {
+      width: 60%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      border-radius: 5px;
+    }
+  
+    .signup_btn {
+      background-color: blue;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 25%;
+    }
+  
+    .signup_form b {
+        font-size: 25px;
+    }
+  
+    .signup_signin {
+      background-color: skyblue;
+      text-align: center;
+      margin: 0;
+      
+    }
+
+    /* Signup form css end */
+
+    /* About us page start */
+    pre {
+      font-size: 40px;
+      text-align: center;
+      padding: 5%;
+    }
+
+    .look_span {
+      color: rgb(216, 64, 59);
+      font-weight: bold;
+      text-transform: capitalize;
+    }
+
+    .feel_span {
+    color: rgb(246, 34, 34);
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+
+    /* About us page end */
+
+/* CSS end */

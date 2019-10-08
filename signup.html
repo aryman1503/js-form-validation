@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Salesforce</title>
+            <!-- Add stylesheet -->
+            <link rel="stylesheet" type="text/css" href="asserts/css/styles.css" >
+            <script src="asserts/js/validation.js"></script>
+    </head>
+    <!-- Add background image -->
+    <body background="asserts/images/bg.png">
+
+        <!-- Signup form start -->
+        <div class="signup_transbox">
+                <form class="signup_form" name="checkForm" onsubmit="return validateForm()">
+                    <div>
+                        <div>
+                                <h1 style="text-align:center;">Sign-up <span>Form</span></h1>
+                            <label>
+                                <b>First Name:</b>
+                                <input class="signup_input" type="text" placeholder="Enter your name" required>
+                            </label>
+                        </div>
+                        <div>
+                                <label>
+                                        <b>Last Name:</b>
+                                        <input class="signup_input" type="text" placeholder="Enter your father's name" required>
+                                    </label>
+                        </div>
+                        <div>
+                                <label>
+                                        <b>Father's Name:</b>
+                                        <input class="signup_input" type="text" placeholder="Enter your mother's name">
+                                    </label>
+                        </div>
+                        <div>
+                                <label>
+                                        <b>Email:</b>
+                                        <input class="signup_input" name="email" type="text" placeholder="Enter your email" required>
+                                    </label>
+                        </div>
+                        <div>
+                                <label>
+                                        <b>Phone Number:</b>
+                                        <input class="contact_input" type="text" pattern="[1-9]{1}[0-9]{9}" title="Enter 10 digit mobile number which is not start with '0'" placeholder="Your phone number."  name="mobile"   required>
+                                </label>
+                        </div>
+                        <div>
+                                <label>
+                                        <b>Gender:</b><br>
+                                        <input class="signup_input" type="radio" name="gender" value="male"> Male<br>
+                                        <input class="signup_input" type="radio" name="gender" value="female"> Female<br>
+                                        <input class="signup_input" type="radio" name="gender" value="other"> Other<br>  
+                                    </label>
+                        </div>
+                        <div>
+                                <label>
+                                        <b>Address:</b>
+                                        <textarea class="signup_input" placeholder="Enter your address" style="height:50px"></textarea>
+                                    </label>
+                        </div>
+                        <div>
+                            <label>
+                                    <b>Password:</b>
+                                    <input  class="signup_input" type="password" name="pwd" placeholder="Enter your password" required>
+                                </label>
+                         </div>
+                         <button class="signup_btn" type="submit" formaction="index.html" value="Submit">Signup</button>
+                         <p class="signup_signin">Do you have account? <a href="login.html">Login</a>.</p>
+                        </div>
+                </form>
+        </div>
+        <!-- Signup form end -->
+    </body>
+</html>

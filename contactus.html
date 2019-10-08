@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Salesforce</title>
+        <!-- Add stylesheet -->
+        <link rel="stylesheet" type="text/css" href="asserts/css/styles.css" >
+        <script src="js/validation.js"></script>
+    </head>
+    <body>
+        <!-- Logo for page -->
+        <div>
+            <a href="index.html"><img class="logo_img" src="asserts/images/logo.png"></a>
+        </div>
+        <!-- End logo block-->
+
+        <!-- Nav bar start -->
+        <div>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="contactus.html">contact us</a></li>
+                <li><a href="aboutus.html">about us</a></li>
+                <li class="right"><a href="login.html">login</a></li>
+                <li class="right" ><a href="signup.html">signup</a></li>
+            </ul><br><br><br><br>
+        </div>
+        <!-- End Nav bar -->
+
+        <!-- Contact form start -->
+        <div>
+            <br><hr>
+                <h1 style="text-align:center;">Contact <span> Form </span></h1>
+        </div>
+        <div class="contact_form">
+                <form name="checkForm" onsubmit="return validateForm()">
+                  <label>First Name</label>
+                  <input class="contact_input" type="text" placeholder="Your first name." required>
+              
+                  <label>Last Name</label>
+                  <input class="contact_input" type="text" placeholder="Your last name." required>
+
+                  <label>Email</label>
+                  <input class="contact_input" name="email" type="text" placeholder="Your email address." required>       
+                  
+                  <label>Phone Number</label>
+                  <input class="contact_input" type="text" pattern="[1-9]{1}[0-9]{9}" title="Enter 10 digit mobile number which is not start with '0'" placeholder="Your phone number."  name="mobile"   required>
+    
+                  <label>Message</label>
+                  <textarea class="contact_textarea" id="subject" placeholder="Write the message..." style="height:200px"></textarea>
+              
+                  <input class="contact_submit_btn" type="submit" formaction="index.html" value="Submit">
+                </form>
+        </div>
+        <!-- Contact form end -->
+        
+    </body>
+</html>

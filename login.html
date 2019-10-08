@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>Salesforce</title>
+            <!-- Add stylesheet -->
+            <link rel="stylesheet" type="text/css" href="asserts/css/styles.css" >
+            <script src="asserts/js/validation.js"></script>
+    </head>
+    <!-- Add background image -->
+    <body background="asserts/images/bg.png">
+
+        <!--Login form start -->
+        <div class="transbox">
+                <form class="login_form" name="checkForm" onsubmit="return validateForm()">
+                    <div>
+                        <div>
+                                <h1 style="text-align:center;">Login <span>Form</span></h1>
+                            <label>
+                                <b>Username:</b>
+                                <input type="text" name="email" placeholder="Enter your username" required>
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                    <b>Password:</b>
+                                    <input type="password" name="pwd" placeholder="Enter your password" required>
+                                </label>
+                         </div>
+                         <button class="login_btn" type="submit" value="Submit" value="Submit" formaction="index.html">Login</button>
+                         <p class="login_signin">Don't have a Account? <a href="signup.html">Sign up</a>.</p>
+                    </div>
+                </form>
+        </div>
+        <!-- Login form end -->
+        
+    </body>
+</html>
